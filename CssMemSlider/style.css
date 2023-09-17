@@ -76,3 +76,17 @@ body {
   #slide3:not(:checked) ~ .navigation label[for="slide3"]:hover {
     background: white;
   }
+
+  @media (max-width: 320px) {
+    .slider {
+      max-height: 300px;
+    }
+    
+    .caption {
+      font-size: 10px;
+    }
+    
+    .navigation {
+      bottom: 10px;
+    }
+  }
